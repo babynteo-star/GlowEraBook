@@ -1,6 +1,14 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "how-alcohol-quietly-dims-your-glow",
+    title: "How Alcohol Quietly Dims Your Glow",
+    excerpt: "It's not about never drinking again, it's about noticing what dims your light and choosing what helps you shine.",
+    date: "2026-07-24",
+    readTime: "3 min read",
+    category: "Wellness"
+  },
+  {
     slug: "the-skincare-in-a-can-ritual-how-sardines-became-the-secret-to-a-natural-glow",
     title: "The Skincare in a Can Ritual: How Sardines Became the Secret to a Natural Glow",
     excerpt: "One humble tin of sardines, rich in omega-3s, vitamin D, and zinc, may be the simplest skin ritual in your Glow Era.",
