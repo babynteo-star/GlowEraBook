@@ -7,7 +7,7 @@ const BLOG_POSTS = [
     date: "2026-07-24",
     readTime: "3 min read",
     category: "Wellness",
-    image: "images/alcohol-glow-before-after.png"
+    image: "images/drink.jpeg"
   },
   {
     slug: "the-skincare-in-a-can-ritual-how-sardines-became-the-secret-to-a-natural-glow",
