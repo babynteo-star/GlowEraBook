@@ -6,7 +6,8 @@ const BLOG_POSTS = [
     excerpt: "It's not about never drinking again, it's about noticing what dims your light and choosing what helps you shine.",
     date: "2026-07-24",
     readTime: "3 min read",
-    category: "Wellness"
+    category: "Wellness",
+    image: "images/alcohol-glow-before-after.png"
   },
   {
     slug: "the-skincare-in-a-can-ritual-how-sardines-became-the-secret-to-a-natural-glow",
