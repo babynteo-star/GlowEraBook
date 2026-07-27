@@ -7,7 +7,7 @@ const BLOG_POSTS = [
     date: "2026-07-27",
     readTime: "5 min read",
     category: "Mental Health",
-    image: "images/boundaries-and-anxiety.jpeg"
+    image: "images/boundaries-and-anxiety.png"
   },
   {
     slug: "how-alcohol-quietly-dims-your-glow",
