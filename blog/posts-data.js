@@ -1,6 +1,15 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "creating-boundaries-and-dealing-with-anxiety-protecting-your-peace-in-your-glow-era",
+    title: "Creating Boundaries and Dealing with Anxiety: Protecting Your Peace in Your Glow Era",
+    excerpt: "Boundaries and anxiety are deeply intertwined. Here's how setting clear, compassionate limits creates the safety your nervous system craves.",
+    date: "2026-07-27",
+    readTime: "5 min read",
+    category: "Mental Health",
+    image: "images/boundaries-and-anxiety.jpeg"
+  },
+  {
     slug: "how-alcohol-quietly-dims-your-glow",
     title: "How Alcohol Quietly Dims Your Glow",
     excerpt: "It's not about never drinking again, it's about noticing what dims your light and choosing what helps you shine.",
