@@ -91,26 +91,34 @@
         <h2>Why this book matters right now</h2>
       </div>
       <div class="pillar-grid">
-        <div class="pillar-card" data-reveal>
+        <a class="pillar-card" href="/category/radical-self-care/" aria-label="Explore Radical Self-Care articles" data-reveal>
           <div class="pillar-icon">✦</div>
           <h3>Radical Self-Care</h3>
           <p>Simple, sustainable rituals that fit real life, not another overwhelming routine you'll abandon in a week.</p>
-        </div>
-        <a class="pillar-card" href="/7-ways-to-rebuild-a-relationship-with-yourself.html" data-reveal>
+          <span class="pillar-count" data-cat="radical-self-care"></span>
+          <span class="pillar-explore">Explore Articles</span>
+        </a>
+        <a class="pillar-card" href="/category/deep-self-love/" aria-label="Explore Deep Self-Love articles" data-reveal>
           <div class="pillar-icon">♡</div>
           <h3>Deep Self-Love</h3>
           <p>Gentle, guided reflection to help you quiet your inner critic and finally believe you are enough.</p>
+          <span class="pillar-count" data-cat="deep-self-love"></span>
+          <span class="pillar-explore">Explore Articles</span>
         </a>
-        <div class="pillar-card" data-reveal>
+        <a class="pillar-card" href="/category/healing-boundaries/" aria-label="Explore Healing & Boundaries articles" data-reveal>
           <div class="pillar-icon">☾</div>
           <h3>Healing & Boundaries</h3>
           <p>Honest tools for releasing what no longer serves you and protecting your peace without guilt.</p>
-        </div>
-        <div class="pillar-card" data-reveal>
+          <span class="pillar-count" data-cat="healing-boundaries"></span>
+          <span class="pillar-explore">Explore Articles</span>
+        </a>
+        <a class="pillar-card" href="/category/confidence-glow/" aria-label="Explore Confidence & Glow articles" data-reveal>
           <div class="pillar-icon">✧</div>
           <h3>Confidence & Glow</h3>
           <p>Practical mindset shifts to help your inner glow finally show up on the outside, every single day.</p>
-        </div>
+          <span class="pillar-count" data-cat="confidence-glow"></span>
+          <span class="pillar-explore">Explore Articles</span>
+        </a>
       </div>
     </div>
   </section>
@@ -196,6 +204,18 @@
   </div>
 </footer>
 
+<script src="blog/posts-data.js"></script>
+<script>
+  // 7-ways-to-rebuild-a-relationship-with-yourself.html predates blog/posts-data.js
+  // and lives outside the blog/ collection, so it isn't in BLOG_POSTS. Count it here.
+  const ROOT_ARTICLE_CATEGORY_ID = "deep-self-love";
+  const counts = { "deep-self-love": 1 };
+  BLOG_POSTS.forEach(p => { counts[p.categoryId] = (counts[p.categoryId] || 0) + 1; });
+  document.querySelectorAll(".pillar-count").forEach(el => {
+    const n = counts[el.dataset.cat] || 0;
+    el.textContent = n === 1 ? "1 Article" : `${n} Articles`;
+  });
+</script>
 <script src="script.js"></script>
 </body>
 </html>

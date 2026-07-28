@@ -2,19 +2,24 @@
 Create and publish a new Glow Era blog post in one step.
 
 Usage:
-  python new_blog_post.py "Post Title" "One-sentence excerpt for the card" "Category" body.txt
-  python new_blog_post.py "Post Title" "Excerpt" "Category" body.txt --no-push
+  python new_blog_post.py "Post Title" "Excerpt" "Category Label" "category-id" body.txt
+  python new_blog_post.py "Post Title" "Excerpt" "Category Label" "category-id" body.txt --image images/foo.jpg --tags "tag1,tag2,tag3" --no-push
 
-Body file format (plain text):
+category-id must be one of the ids in blog/categories-data.js (radical-self-care,
+deep-self-love, healing-boundaries, confidence-glow).
+
+Body file format (plain text, see content_render.py):
   - Blank line = new paragraph
-  - Line starting with "## " = <h2> subheading
-  - Line starting with "> " = blockquote
+  - "## " = <h2>, "### " = <h3>, "> " = blockquote
+  - "- " consecutive = <ul>, "1. " consecutive = <ol>
+  - **bold**, [text](url)
 """
 import sys
-import re
 import subprocess
 from pathlib import Path
 from datetime import datetime
+
+from content_render import render_body, slugify
 
 ROOT = Path(__file__).parent
 BLOG_DIR = ROOT / "blog"
@@ -23,26 +28,12 @@ SITEMAP = ROOT / "sitemap.xml"
 SITE_URL = "https://glowerabook.com"
 
 
-def slugify(title):
-    s = title.lower().strip()
-    s = re.sub(r"[^a-z0-9\s-]", "", s)
-    s = re.sub(r"\s+", "-", s)
-    s = re.sub(r"-+", "-", s)
-    return s.strip("-")
+def js_esc(s):
+    return s.replace("\\", "\\\\").replace('"', '\\"')
 
 
-def render_body(text):
-    blocks = [b.strip() for b in text.strip().split("\n\n") if b.strip()]
-    html = []
-    for b in blocks:
-        if b.startswith("## "):
-            html.append(f"      <h2>{b[3:].strip()}</h2>")
-        elif b.startswith("> "):
-            html.append(f"      <blockquote>{b[2:].strip()}</blockquote>")
-        else:
-            para = " ".join(line.strip() for line in b.split("\n"))
-            html.append(f"      <p>{para}</p>")
-    return "\n".join(html)
+def html_esc(s):
+    return s.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
 
 
 def read_time(text):
@@ -84,9 +75,17 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 <main>
   <section class="article-hero">
     <div class="container">
+      <!-- breadcrumb -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a> <span aria-hidden="true">&rsaquo;</span>
+        <a href="/blog/">Blog</a> <span aria-hidden="true">&rsaquo;</span>
+        <a href="/category/{category_id}/">{category}</a> <span aria-hidden="true">&rsaquo;</span>
+        <span aria-current="page">{title}</span>
+      </nav>
       <a href="/blog/" class="article-back">&larr; Back to the Blog</a>
-      <div class="article-meta"><span>{category}</span><span>&middot;</span><span>{date_display}</span><span>&middot;</span><span>{read_time}</span></div>
+      <div class="article-meta"><a href="/category/{category_id}/" class="article-meta-category">{category}</a><span>&middot;</span><span>{date_display}</span><span>&middot;</span><span>{read_time}</span></div>
       <h1>{title}</h1>
+{hero_img_html}
     </div>
   </section>
 
@@ -116,18 +115,28 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 """
 
 
-def insert_post_entry(slug, title, excerpt, category, date_iso, rtime):
+def insert_post_entry(slug, title, excerpt, category, category_id, date_iso, rtime, image, tags):
     content = POSTS_DATA.read_text(encoding="utf-8")
-    entry = (
-        "  {\n"
-        f'    slug: "{slug}",\n'
-        f'    title: "{title}",\n'
-        f'    excerpt: "{excerpt}",\n'
-        f'    date: "{date_iso}",\n'
-        f'    readTime: "{rtime}",\n'
-        f'    category: "{category}"\n'
-        "  },\n"
-    )
+    entry_lines = [
+        "  {",
+        f'    slug: "{js_esc(slug)}",',
+        f'    categoryId: "{js_esc(category_id)}",',
+        f'    title: "{js_esc(title)}",',
+        f'    excerpt: "{js_esc(excerpt)}",',
+        f'    date: "{date_iso}",',
+        f'    readTime: "{rtime}",',
+        f'    category: "{js_esc(category)}",',
+    ]
+    if image:
+        entry_lines.append(f'    image: "{js_esc(image)}",')
+    if tags:
+        tag_list = ", ".join(f'"{js_esc(t.strip())}"' for t in tags.split(",") if t.strip())
+        entry_lines.append(f"    tags: [{tag_list}],")
+    # drop trailing comma on last field, close object
+    entry_lines[-1] = entry_lines[-1].rstrip(",")
+    entry_lines.append("  },")
+    entry = "\n".join(entry_lines) + "\n"
+
     marker = "const BLOG_POSTS = [\n"
     idx = content.index(marker) + len(marker)
     new_content = content[:idx] + entry + content[idx:]
@@ -140,6 +149,10 @@ def rebuild_sitemap():
         if f.name == "index.html":
             continue
         urls.append(f"{SITE_URL}/blog/{f.name}")
+    cat_dir = ROOT / "category"
+    if cat_dir.exists():
+        for f in sorted(cat_dir.glob("*/index.html")):
+            urls.append(f"{SITE_URL}/category/{f.parent.name}/")
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
         lines.append(f"  <url><loc>{u}</loc></url>")
@@ -148,12 +161,33 @@ def rebuild_sitemap():
 
 
 def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    no_push = "--no-push" in sys.argv
-    if len(args) < 4:
+    raw_args = sys.argv[1:]
+    no_push = "--no-push" in raw_args
+    image = ""
+    tags = ""
+    if "--image" in raw_args:
+        image = raw_args[raw_args.index("--image") + 1]
+    if "--tags" in raw_args:
+        tags = raw_args[raw_args.index("--tags") + 1]
+
+    positional = []
+    skip_next = False
+    for a in raw_args:
+        if skip_next:
+            skip_next = False
+            continue
+        if a in ("--image", "--tags"):
+            skip_next = True
+            continue
+        if a.startswith("--"):
+            continue
+        positional.append(a)
+
+    if len(positional) < 5:
         print(__doc__)
         sys.exit(1)
-    title, excerpt, category, body_path = args[0], args[1], args[2], args[3]
+
+    title, excerpt, category, category_id, body_path = positional[:5]
     body_text = Path(body_path).read_text(encoding="utf-8")
 
     slug = slugify(title)
@@ -161,15 +195,17 @@ def main():
     date_display = datetime.now().strftime("%B %-d, %Y") if sys.platform != "win32" else datetime.now().strftime("%B %#d, %Y")
     rtime = read_time(body_text)
     body_html = render_body(body_text)
+    hero_img_html = f'      <img src="{image.replace("blog/", "")}" alt="{title}" class="article-hero-img">' if image else ""
 
     out_path = BLOG_DIR / f"{slug}.html"
     html = ARTICLE_TEMPLATE.format(
-        title=title, excerpt=excerpt, category=category,
-        date_display=date_display, read_time=rtime, body_html=body_html
+        title=html_esc(title), excerpt=html_esc(excerpt), category=html_esc(category), category_id=category_id,
+        date_display=date_display, read_time=rtime, body_html=body_html,
+        hero_img_html=hero_img_html,
     )
     out_path.write_text(html, encoding="utf-8")
 
-    insert_post_entry(slug, title, excerpt, category, date_iso, rtime)
+    insert_post_entry(slug, title, excerpt, category, category_id, date_iso, rtime, image, tags)
     rebuild_sitemap()
 
     # SEO + internal-linking enrichment (canonical/OG/JSON-LD, author box, related posts)

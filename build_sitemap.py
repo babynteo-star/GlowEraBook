@@ -18,6 +18,9 @@ for f in sorted(glob.glob("blog/*.html")):
     if name == "index.html" or any(name.startswith(s) for s in skip):
         continue
     urls.append(f"{BASE}/blog/{name}")
+for f in sorted(glob.glob("category/*/index.html")):
+    slug = os.path.basename(os.path.dirname(f))
+    urls.append(f"{BASE}/category/{slug}/")
 
 body = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 body += "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls)
