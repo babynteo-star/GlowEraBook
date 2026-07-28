@@ -15,7 +15,7 @@ const BLOG_CATEGORIES = [
     slug: "deep-self-love",
     icon: "&#9825;",
     displayOrder: 2,
-    featuredArticleId: "how-to-build-self-love-when-you-do-not-fully-believe-in-yourself-yet",
+    featuredArticleId: "the-difference-between-self-love-self-esteem-and-self-respect",
     description: "Deep self-love is not a mood or a mantra you repeat until it magically sticks. It's a relationship, the one you have with yourself, built the same slow way any real relationship is built: through honesty, patience, and thousands of small moments of showing up. This category is for the quieter, more honest work of that relationship: learning to quiet an inner critic that has been running the show for years, telling the difference between self-love, self-esteem, and self-respect, and rebuilding trust in yourself after a season that shook it. There are no empty affirmations here and no pressure to feel instantly worthy. Instead, you'll find gentle, specific practices for the days self-love feels far away, honest language for the parts of yourself you've been avoiding, and a steady reminder that you don't have to fully believe you're enough yet to start acting like it's true. This is the work Glow Era was written around: coming home to yourself, on your own timeline, without apology."
   },
   {

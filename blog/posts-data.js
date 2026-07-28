@@ -1,36 +1,6 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
-    slug: "the-daily-habits-that-quietly-build-unshakable-self-trust",
-    categoryId: "confidence-glow",
-    title: "The Daily Habits That Quietly Build Unshakable Self-Trust",
-    excerpt: "Self-trust isn't built in a single decision, it accumulates in small daily moments most people don't think to count as evidence at all.",
-    date: "2026-07-27",
-    readTime: "7 min read",
-    category: "Confidence & Glow",
-    tags: ["self-trust", "confidence", "daily habits", "personal growth"]
-  },
-  {
-    slug: "how-your-posture-voice-and-presence-reflect-your-inner-glow",
-    categoryId: "confidence-glow",
-    title: "How Your Posture, Voice, and Presence Reflect Your Inner Glow",
-    excerpt: "The way you carry your body and use your voice isn't performance, it's often the most honest report of what's actually happening inside you.",
-    date: "2026-07-27",
-    readTime: "7 min read",
-    category: "Confidence & Glow",
-    tags: ["confidence", "presence", "body language", "inner glow"]
-  },
-  {
-    slug: "building-confidence-after-a-season-of-self-doubt",
-    categoryId: "confidence-glow",
-    title: "Building Confidence After a Season of Self-Doubt",
-    excerpt: "A hard season doesn't erase your confidence, it just buries the evidence, and rebuilding it is slower and more deliberate than anyone tells you.",
-    date: "2026-07-27",
-    readTime: "6 min read",
-    category: "Confidence & Glow",
-    tags: ["confidence", "self-doubt", "healing", "self-trust"]
-  },
-  {
     slug: "how-to-stop-comparing-your-glow-to-someone-elses",
     categoryId: "confidence-glow",
     title: "How to Stop Comparing Your Glow to Someone Else's",
@@ -61,26 +31,6 @@ const BLOG_POSTS = [
     tags: ["confidence", "mindset", "self-trust", "personal growth"]
   },
   {
-    slug: "how-to-say-yes-to-yourself-when-you-are-used-to-saying-yes-to-everyone-else",
-    categoryId: "radical-self-care",
-    title: "How to Say Yes to Yourself When You Are Used to Saying Yes to Everyone Else",
-    excerpt: "If your yes has always belonged to other people first, learning to offer it to yourself will feel strange before it feels good. That strangeness is the work.",
-    date: "2026-07-27",
-    readTime: "6 min read",
-    category: "Radical Self-Care",
-    tags: ["self-worth", "boundaries", "self-advocacy", "people pleasing", "self-care"]
-  },
-  {
-    slug: "creating-a-self-care-ritual-for-the-season-of-life-you-are-actually-in",
-    categoryId: "radical-self-care",
-    title: "Creating a Self-Care Ritual for the Season of Life You Are Actually In",
-    excerpt: "The self-care that worked for you five years ago might be quietly failing you now, not because you're doing it wrong, but because your life has changed.",
-    date: "2026-07-27",
-    readTime: "7 min read",
-    category: "Radical Self-Care",
-    tags: ["self-care ritual", "life seasons", "boundaries", "motherhood", "transitions"]
-  },
-  {
     slug: "how-to-rest-without-guilt-when-you-were-raised-to-always-be-productive",
     categoryId: "radical-self-care",
     title: "How to Rest Without Guilt When You Were Raised to Always Be Productive",
@@ -99,16 +49,6 @@ const BLOG_POSTS = [
     readTime: "6 min read",
     category: "Radical Self-Care",
     tags: ["self-soothing", "self-care", "emotional regulation", "coping habits", "nervous system"]
-  },
-  {
-    slug: "how-to-build-a-self-care-practice-that-survives-your-busiest-weeks",
-    categoryId: "radical-self-care",
-    title: "How to Build a Self-Care Practice That Survives Your Busiest Weeks",
-    excerpt: "Most self-care routines are designed for a version of your life that doesn't exist yet. Here's how to build one that holds up when things actually get hard.",
-    date: "2026-07-27",
-    readTime: "6 min read",
-    category: "Radical Self-Care",
-    tags: ["self-care practice", "boundaries", "routines", "stress", "burnout prevention"]
   },
   {
     slug: "what-radical-self-care-actually-means-and-why-it-is-not-selfish",
@@ -141,36 +81,6 @@ const BLOG_POSTS = [
     tags: ["boundaries", "conflict", "self-respect", "relationships", "emotional health"]
   },
   {
-    slug: "healing-from-people-pleasing-one-small-decision-at-a-time",
-    categoryId: "healing-boundaries",
-    title: "Healing From People-Pleasing One Small Decision at a Time",
-    excerpt: "You don't heal from people-pleasing in one dramatic confrontation. You heal in the accumulation of small, unremarkable moments where you choose yourself first.",
-    date: "2026-07-27",
-    readTime: "6 min read",
-    category: "Healing & Boundaries",
-    tags: ["people-pleasing", "boundaries", "self-worth", "healing", "emotional health"]
-  },
-  {
-    slug: "signs-you-are-overextending-yourself-emotionally",
-    categoryId: "healing-boundaries",
-    title: "Signs You Are Overextending Yourself Emotionally",
-    excerpt: "Overextension rarely announces itself. It shows up as exhaustion you can't quite explain and a quiet resentment you feel guilty for having at all.",
-    date: "2026-07-27",
-    readTime: "6 min read",
-    category: "Healing & Boundaries",
-    tags: ["emotional health", "burnout", "boundaries", "self-care", "overextension"]
-  },
-  {
-    slug: "why-boundaries-can-trigger-guilt-and-what-to-do-about-it",
-    categoryId: "healing-boundaries",
-    title: "Why Boundaries Can Trigger Guilt, and What to Do About It",
-    excerpt: "The guilt that shows up right after you say no isn't a signal you did something wrong. It's a signal you did something unfamiliar, and there's a way through it.",
-    date: "2026-07-27",
-    readTime: "6 min read",
-    category: "Healing & Boundaries",
-    tags: ["boundaries", "guilt", "emotional healing", "self-worth", "anxiety"]
-  },
-  {
     slug: "how-to-set-boundaries-without-feeling-cruel-or-selfish",
     categoryId: "healing-boundaries",
     title: "How to Set Boundaries Without Feeling Cruel or Selfish",
@@ -191,26 +101,6 @@ const BLOG_POSTS = [
     tags: ["self-trust", "healing", "resilience", "self-love"]
   },
   {
-    slug: "a-gentle-self-love-practice-for-difficult-days",
-    categoryId: "deep-self-love",
-    title: "A Gentle Self-Love Practice for Difficult Days",
-    excerpt: "For the days when self-improvement feels impossible, here's a small, doable practice built for exactly the moments you have the least energy to try.",
-    date: "2026-07-27",
-    readTime: "6 min read",
-    category: "Deep Self-Love",
-    tags: ["self-love", "difficult days", "self-care", "gentle practices"]
-  },
-  {
-    slug: "learning-to-feel-worthy-without-constant-validation",
-    categoryId: "deep-self-love",
-    title: "Learning to Feel Worthy Without Constant Validation",
-    excerpt: "If your sense of worth rises and falls with other people's approval, here is how to build something steadier that doesn't depend on anyone else's response.",
-    date: "2026-07-27",
-    readTime: "6 min read",
-    category: "Deep Self-Love",
-    tags: ["self-worth", "validation", "self-love", "emotional health"]
-  },
-  {
     slug: "how-to-quiet-your-inner-critic-without-fighting-yourself",
     categoryId: "deep-self-love",
     title: "How to Quiet Your Inner Critic Without Fighting Yourself",
@@ -229,16 +119,6 @@ const BLOG_POSTS = [
     readTime: "6 min read",
     category: "Deep Self-Love",
     tags: ["self-love", "self-esteem", "self-respect", "personal growth"]
-  },
-  {
-    slug: "how-to-build-self-love-when-you-do-not-fully-believe-in-yourself-yet",
-    categoryId: "deep-self-love",
-    title: "How to Build Self-Love When You Do Not Fully Believe in Yourself Yet",
-    excerpt: "For the days you don't feel worthy of your own kindness, here is a practical way to build self-love through action, before the belief ever arrives.",
-    date: "2026-07-27",
-    readTime: "7 min read",
-    category: "Deep Self-Love",
-    tags: ["self-love", "self-worth", "self-belief", "personal growth", "healing"]
   },
   {
     slug: "creating-boundaries-and-dealing-with-anxiety-protecting-your-peace-in-your-glow-era",
@@ -457,4 +337,5 @@ const BLOG_POSTS = [
     readTime: "4 min read",
     category: "Confidence"
   }
+
 ];
