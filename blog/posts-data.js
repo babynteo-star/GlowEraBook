@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "does-coffee-make-you-irritable-the-science-behind-caffeine-and-mood",
+    categoryId: "radical-self-care",
+    title: "Does Coffee Make You Irritable? The Science Behind Caffeine and Mood",
+    excerpt: "That third cup might be doing more than waking you up. Here's why caffeine can quietly tip your calm into edge, and how to enjoy your ritual without the crash.",
+    date: "2026-08-04",
+    readTime: "4 min read",
+    category: "Wellness",
+    tags: ["caffeine", "coffee", "mood", "irritability", "self-care habits"]
+  },
+  {
     slug: "how-to-stop-comparing-your-glow-to-someone-elses",
     categoryId: "confidence-glow",
     title: "How to Stop Comparing Your Glow to Someone Else's",
