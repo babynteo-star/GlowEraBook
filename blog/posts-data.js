@@ -8,6 +8,7 @@ const BLOG_POSTS = [
     date: "2026-08-04",
     readTime: "4 min read",
     category: "Wellness",
+    image: "images/coffee-mood.jpg",
     tags: ["caffeine", "coffee", "mood", "irritability", "self-care habits"]
   },
   {
