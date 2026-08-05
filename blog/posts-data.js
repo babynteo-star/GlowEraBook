@@ -121,7 +121,7 @@ const BLOG_POSTS = [
     category: "Deep Self-Love",
     tags: ["inner critic", "self-love", "self-talk", "mental wellness"]
   },
-  {
+{
     slug: "the-difference-between-self-love-self-esteem-and-self-respect",
     categoryId: "deep-self-love",
     title: "The Difference Between Self-Love, Self-Esteem, and Self-Respect",
@@ -129,6 +129,7 @@ const BLOG_POSTS = [
     date: "2026-07-27",
     readTime: "6 min read",
     category: "Deep Self-Love",
+    image: "images/self-love-self-esteem.jpg",
     tags: ["self-love", "self-esteem", "self-respect", "personal growth"]
   },
   {
