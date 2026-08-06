@@ -1,3 +1,5 @@
+// Newest post first. Each new_blog_post.py run prepends one entry here.
+const BLOG_POSTS = [
 {
     slug: "slow-travel-for-the-overstimulated-woman-designing-trips-that-actually-restore-you",
     categoryId: "radical-self-care",
