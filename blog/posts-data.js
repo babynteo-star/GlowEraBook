@@ -1,6 +1,4 @@
-// Newest post first. Each new_blog_post.py run prepends one entry here.
-const BLOG_POSTS = [
-  {
+{
     slug: "slow-travel-for-the-overstimulated-woman-designing-trips-that-actually-restore-you",
     categoryId: "radical-self-care",
     title: "Slow Travel for the Overstimulated Woman: Designing Trips That Actually Restore You",
@@ -8,6 +6,7 @@ const BLOG_POSTS = [
     date: "2026-08-05",
     readTime: "7 min read",
     category: "Wellness",
+    image: "images/slow-travel-coastal-town.jpg",
     tags: ["slow travel", "nervous system", "rest", "self-care", "overstimulation"]
   },
   {
