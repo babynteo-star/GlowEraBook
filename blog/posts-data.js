@@ -8,6 +8,7 @@ const BLOG_POSTS = [
     date: "2026-08-06",
     readTime: "9 min read",
     category: "Wellness",
+    image: "images/travel-destinations-collage.jpg",
     tags: ["budget travel", "affordable destinations", "visa-free travel", "slow travel", "travel tips"]
   },
   {
