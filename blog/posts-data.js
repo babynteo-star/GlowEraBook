@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
-{
+  {
+    slug: "top-5-affordable-travel-destinations-for-relaxation-no-visa-hassle",
+    categoryId: "radical-self-care",
+    title: "Top 5 Affordable Travel Destinations for Relaxation (No Visa Hassle)",
+    excerpt: "True rest doesn't have to cost a fortune. Discover 5 affordable, visa-easy destinations perfect for slow, restorative travel on any budget.",
+    date: "2026-08-06",
+    readTime: "9 min read",
+    category: "Wellness",
+    tags: ["budget travel", "affordable destinations", "visa-free travel", "slow travel", "travel tips"]
+  },
+  {
     slug: "slow-travel-for-the-overstimulated-woman-designing-trips-that-actually-restore-you",
     categoryId: "radical-self-care",
     title: "Slow Travel for the Overstimulated Woman: Designing Trips That Actually Restore You",
@@ -19,6 +29,7 @@ const BLOG_POSTS = [
     date: "2026-08-04",
     readTime: "4 min read",
     category: "Wellness",
+    image: "images/coffee-mood.jpg",
     tags: ["caffeine", "coffee", "mood", "irritability", "self-care habits"]
   },
   {
