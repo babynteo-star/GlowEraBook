@@ -8,6 +8,7 @@ const BLOG_POSTS = [
     date: "2026-08-07",
     readTime: "5 min read",
     category: "Wellness",
+    image: "images/skincare-travel-kit.jpg",
     tags: ["skincare", "travel skincare", "quick routine", "eye care", "self-care habits"]
   },
   {
