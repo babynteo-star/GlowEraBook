@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "vacation-spa-treatments-classic-and-modern-options-for-ultimate-pampering",
+    categoryId: "radical-self-care",
+    title: "Vacation Spa Treatments: Classic and Modern Options for Ultimate Pampering",
+    excerpt: "From Swedish massage to float therapy, here's the full guide to spa treatments that turn your next vacation into deep, lasting relaxation.",
+    date: "2026-08-08",
+    readTime: "4 min read",
+    category: "Wellness",
+    tags: ["spa", "vacation spa", "massage", "wellness treatments", "self-care travel"]
+  },
+  {
     slug: "vacation-wellness-activities-yoga-meditation-and-nature-immersion-for-real-rest",
     categoryId: "radical-self-care",
     title: "Vacation Wellness Activities: Yoga, Meditation, and Nature Immersion for Real Rest",
