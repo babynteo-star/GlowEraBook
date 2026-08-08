@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "vacation-wellness-activities-yoga-meditation-and-nature-immersion-for-real-rest",
+    categoryId: "radical-self-care",
+    title: "Vacation Wellness Activities: Yoga, Meditation, and Nature Immersion for Real Rest",
+    excerpt: "Turn your next trip into real recovery with three simple, evidence-backed practices, yoga, meditation, and nature immersion, that need no special gear and work almost anywhere.",
+    date: "2026-08-08",
+    readTime: "4 min read",
+    category: "Wellness",
+    tags: ["vacation wellness", "yoga", "meditation", "nature immersion", "mindfulness", "travel"]
+  },
+  {
     slug: "quick-glow-skincare-on-the-go-a-5-minute-travel-and-recovery-routine",
     categoryId: "radical-self-care",
     title: "Quick Glow Skincare on the Go: A 5-Minute Travel and Recovery Routine",
