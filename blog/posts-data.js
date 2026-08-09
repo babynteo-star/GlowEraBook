@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "keto-l-theanine-smoothie-for-calm-focus-and-glow",
+    categoryId: "radical-self-care",
+    title: "Keto L-Theanine Smoothie for Calm Focus and Glow",
+    excerpt: "A creamy, low-carb smoothie with L-theanine for gentle calm, healthy fats for steady energy, and glow-supporting nutrients, no sugar crash, no jitters.",
+    date: "2026-08-09",
+    readTime: "4 min read",
+    category: "Wellness Recipes",
+    tags: ["keto smoothie", "L-theanine", "low carb recipe", "wellness recipe", "calming smoothie"]
+  },
+  {
     slug: "vacation-spa-treatments-classic-and-modern-options-for-ultimate-pampering",
     categoryId: "radical-self-care",
     title: "Vacation Spa Treatments: Classic and Modern Options for Ultimate Pampering",
