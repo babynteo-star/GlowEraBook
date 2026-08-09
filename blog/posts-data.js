@@ -8,6 +8,7 @@ const BLOG_POSTS = [
     date: "2026-08-09",
     readTime: "4 min read",
     category: "Wellness Recipes",
+    image: "images/smoothie-berries-almonds.jpg",
     tags: ["keto smoothie", "L-theanine", "low carb recipe", "wellness recipe", "calming smoothie"]
   },
   {
