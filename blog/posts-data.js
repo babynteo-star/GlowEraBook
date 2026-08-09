@@ -19,6 +19,7 @@ const BLOG_POSTS = [
     date: "2026-08-08",
     readTime: "4 min read",
     category: "Wellness",
+    image: "images/spa-thermal-pool-steam.jpg",
     tags: ["spa", "vacation spa", "massage", "wellness treatments", "self-care travel"]
   },
   {
