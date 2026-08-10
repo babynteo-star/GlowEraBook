@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "nervous-system-regulation-simple-daily-practices-for-calm",
+    categoryId: "radical-self-care",
+    title: "Nervous System Regulation: Simple Daily Practices for Calm",
+    excerpt: "The #1 wellness trend of the year, explained simply. Practical, evidence-informed ways to help your nervous system shift out of alert mode and into calm.",
+    date: "2026-08-10",
+    readTime: "6 min read",
+    category: "Wellness",
+    tags: ["nervous system regulation", "vagus nerve", "stress relief", "calm", "self-care"]
+  },
+  {
     slug: "breakfast-for-dinner-ricotta-pancakes-with-warm-berry-compote",
     categoryId: "radical-self-care",
     title: "Breakfast for Dinner Ricotta Pancakes with Warm Berry Compote",
