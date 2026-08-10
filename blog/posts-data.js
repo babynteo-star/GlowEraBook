@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "breakfast-for-dinner-ricotta-pancakes-with-warm-berry-compote",
+    categoryId: "radical-self-care",
+    title: "Breakfast for Dinner Ricotta Pancakes with Warm Berry Compote",
+    excerpt: "Fluffy ricotta pancakes with a glossy berry compote, an easy, elegant breakfast for dinner recipe that turns any weeknight into something quietly special.",
+    date: "2026-08-10",
+    readTime: "3 min read",
+    category: "Wellness Recipes",
+    tags: ["breakfast for dinner", "ricotta pancakes", "berry compote", "brinner", "easy recipe"]
+  },
+  {
     slug: "keto-l-theanine-smoothie-for-calm-focus-and-glow",
     categoryId: "radical-self-care",
     title: "Keto L-Theanine Smoothie for Calm Focus and Glow",
