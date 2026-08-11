@@ -28,6 +28,7 @@ const BLOG_POSTS = [
     date: "2026-08-10",
     readTime: "3 min read",
     category: "Wellness Recipes",
+    image: "images/ricotta-pancakes-berry-compote.jpg",
     tags: ["breakfast for dinner", "ricotta pancakes", "berry compote", "brinner", "easy recipe"]
   },
   {
