@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "digital-detox-and-screen-boundaries-how-to-reclaim-your-attention-and-calm",
+    categoryId: "radical-self-care",
+    title: "Digital Detox and Screen Boundaries: How to Reclaim Your Attention and Calm",
+    excerpt: "The average person spends over six hours a day on screens. Here's what the research actually shows about screen boundaries, and how to build ones that restore your focus, sleep, and calm.",
+    date: "2026-08-11",
+    readTime: "6 min read",
+    category: "Wellness",
+    tags: ["digital detox", "screen time", "boundaries", "attention", "nervous system"]
+  },
+  {
     slug: "nervous-system-regulation-simple-daily-practices-for-calm",
     categoryId: "radical-self-care",
     title: "Nervous System Regulation: Simple Daily Practices for Calm",
