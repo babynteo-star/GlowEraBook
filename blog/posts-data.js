@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "sober-curious-socializing-how-to-show-up-at-events-without-the-drink-in-hand",
+    categoryId: "radical-self-care",
+    title: "Sober Curious Socializing: How to Show Up at Events Without the Drink in Hand",
+    excerpt: "A quiet shift is happening at parties and dinners. Here's how to show up sober curious, clear-headed, grounded, and still fully part of the fun.",
+    date: "2026-08-12",
+    readTime: "4 min read",
+    category: "Wellness",
+    tags: ["sober curious", "mindful drinking", "boundaries", "confidence", "socializing"]
+  },
+  {
     slug: "digital-detox-and-screen-boundaries-how-to-reclaim-your-attention-and-calm",
     categoryId: "radical-self-care",
     title: "Digital Detox and Screen Boundaries: How to Reclaim Your Attention and Calm",
