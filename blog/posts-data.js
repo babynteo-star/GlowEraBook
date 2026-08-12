@@ -18,6 +18,7 @@ const BLOG_POSTS = [
     date: "2026-08-11",
     readTime: "6 min read",
     category: "Wellness",
+    image: "images/unplugged-boat-reading.jpg",
     tags: ["digital detox", "screen time", "boundaries", "attention", "nervous system"]
   },
   {
