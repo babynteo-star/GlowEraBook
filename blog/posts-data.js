@@ -28,6 +28,7 @@ const BLOG_POSTS = [
     date: "2026-08-10",
     readTime: "6 min read",
     category: "Wellness",
+    image: "images/cozy-slippers-nervous-system.jpg",
     tags: ["nervous system regulation", "vagus nerve", "stress relief", "calm", "self-care"]
   },
   {
