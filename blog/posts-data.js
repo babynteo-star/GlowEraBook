@@ -8,6 +8,7 @@ const BLOG_POSTS = [
     date: "2026-08-12",
     readTime: "4 min read",
     category: "Wellness",
+    image: "images/golden-hour-toast.jpg",
     tags: ["sober curious", "mindful drinking", "boundaries", "confidence", "socializing"]
   },
   {
