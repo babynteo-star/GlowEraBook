@@ -19,6 +19,7 @@ const BLOG_POSTS = [
     date: "2026-08-13",
     readTime: "4 min read",
     category: "Deep Self-Love",
+    image: "images/quantum-meditation-glow.jpg",
     tags: ["quantum physics", "presence", "uncertainty", "self-love", "mindfulness"]
   },
   {
