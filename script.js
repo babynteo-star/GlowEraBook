@@ -129,9 +129,6 @@ if (form) {
         const data = await res.json();
         loadingEl.remove();
 
-        // TEMPORARY DIAGNOSTIC: remove this line once the issue is fixed
-        console.log("Glow Era Chat - raw response:", data);
-
         if (data.content && data.content[0] && data.content[0].text) {
           const reply = data.content[0].text;
           addMessage("assistant", reply);
