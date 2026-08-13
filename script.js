@@ -36,10 +36,12 @@ if (form) {
     setTimeout(() => { btn.textContent = original; }, 2500);
   });
 }
+
 /* ============================
    Glow Era AI Assistant Widget
    ============================ */
 (function () {
+  // IMPORTANT: replace this with your actual Cloudflare Worker URL once deployed
   const WORKER_URL = "https://glow-era-chat.babynteo.workers.dev/";
 
   const conversation = [];
@@ -126,6 +128,9 @@ if (form) {
         });
         const data = await res.json();
         loadingEl.remove();
+
+        // TEMPORARY DIAGNOSTIC: remove this line once the issue is fixed
+        console.log("Glow Era Chat - raw response:", data);
 
         if (data.content && data.content[0] && data.content[0].text) {
           const reply = data.content[0].text;
