@@ -8,6 +8,7 @@ const BLOG_POSTS = [
     date: "2026-08-13",
     readTime: "4 min read",
     category: "Wellness Recipes",
+    image: "images/coconut-beach-fresh.jpg",
     tags: ["coconut water", "hydration", "electrolytes", "wellness drink", "skin glow"]
   },
   {
