@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "coconut-water-the-chic-hydration-secret",
+    categoryId: "radical-self-care",
+    title: "Coconut Water: The Chic Hydration Secret",
+    excerpt: "Discover the elegant wellness benefits of coconut water, hydration, electrolytes, and natural glow. How this chic tropical drink supports modern wellness rituals, without the hype.",
+    date: "2026-08-13",
+    readTime: "4 min read",
+    category: "Wellness Recipes",
+    tags: ["coconut water", "hydration", "electrolytes", "wellness drink", "skin glow"]
+  },
+  {
     slug: "quantum-physics-and-self-care-lessons-in-uncertainty-and-presence",
     categoryId: "deep-self-love",
     title: "Quantum Physics and Self-Care: Lessons in Uncertainty and Presence",
