@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "quantum-physics-and-self-care-lessons-in-uncertainty-and-presence",
+    categoryId: "deep-self-love",
+    title: "Quantum Physics and Self-Care: Lessons in Uncertainty and Presence",
+    excerpt: "What quantum physics can teach us, metaphorically, about softness, presence, and letting go of the pressure to arrive fully formed in your glow era.",
+    date: "2026-08-13",
+    readTime: "4 min read",
+    category: "Deep Self-Love",
+    tags: ["quantum physics", "presence", "uncertainty", "self-love", "mindfulness"]
+  },
+  {
     slug: "sober-curious-socializing-how-to-show-up-at-events-without-the-drink-in-hand",
     categoryId: "radical-self-care",
     title: "Sober Curious Socializing: How to Show Up at Events Without the Drink in Hand",
