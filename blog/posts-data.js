@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "magnesium-for-anxiety-what-the-research-actually-says",
+    categoryId: "radical-self-care",
+    title: "Magnesium for Anxiety: What the Research Actually Says",
+    excerpt: "A quieter, biochemical thread in the anxiety conversation. What magnesium can, and can't, do for a restless nervous system, and how to think about it alongside the deeper emotional work.",
+    date: "2026-08-14",
+    readTime: "5 min read",
+    category: "Wellness",
+    tags: ["magnesium", "anxiety", "nutrition", "nervous system", "supplements"]
+  },
+  {
     slug: "what-your-glow-era-actually-costs-you",
     categoryId: "confidence-glow",
     title: "What Your Glow Era Actually Costs You",
