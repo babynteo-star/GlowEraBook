@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "what-your-glow-era-actually-costs-you",
+    categoryId: "confidence-glow",
+    title: "What Your Glow Era Actually Costs You",
+    excerpt: "The soft skin and quiet confidence get all the attention. Here's the real, honest price of admission nobody posts about.",
+    date: "2026-08-14",
+    readTime: "4 min read",
+    category: "Confidence & Glow",
+    tags: ["glow era", "self-care costs", "personal growth", "boundaries", "authenticity"]
+  },
+  {
     slug: "coconut-water-the-chic-hydration-secret",
     categoryId: "radical-self-care",
     title: "Coconut Water: The Chic Hydration Secret",
