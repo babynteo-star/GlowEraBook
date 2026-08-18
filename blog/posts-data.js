@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "mouth-taping-for-better-sleep-what-it-actually-does-and-doesnt",
+    categoryId: "radical-self-care",
+    title: "Mouth Taping for Better Sleep: What It Actually Does (and Doesn't)",
+    excerpt: "The sleep trend that's everywhere right now, explained honestly: what mouth taping may help with, what it can't fix, and who should skip it entirely.",
+    date: "2026-08-18",
+    readTime: "4 min read",
+    category: "Wellness",
+    tags: ["mouth taping", "sleep", "nasal breathing", "sleep trends", "snoring"]
+  },
+  {
     slug: "fruits-vegetables-and-steak-what-actually-builds-your-glow-energy-and-mood",
     categoryId: "radical-self-care",
     title: "Fruits, Vegetables, and Steak: What Actually Builds Your Glow, Energy, and Mood",
