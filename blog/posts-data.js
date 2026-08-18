@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "fruits-vegetables-and-steak-what-actually-builds-your-glow-energy-and-mood",
+    categoryId: "radical-self-care",
+    title: "Fruits, Vegetables, and Steak: What Actually Builds Your Glow, Energy, and Mood",
+    excerpt: "The real, physiological link between what's on your plate and how you look, feel, and swing through your day, and why produce and protein both belong in the picture.",
+    date: "2026-08-14",
+    readTime: "4 min read",
+    category: "Wellness Recipes",
+    tags: ["nutrition", "fruits and vegetables", "protein", "mood", "energy", "glow"]
+  },
+  {
     slug: "magnesium-for-anxiety-what-the-research-actually-says",
     categoryId: "radical-self-care",
     title: "Magnesium for Anxiety: What the Research Actually Says",
