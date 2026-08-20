@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "run-clubs-why-theyre-everywhere-right-now",
+    categoryId: "radical-self-care",
+    title: "Run Clubs: Why They're Everywhere Right Now",
+    excerpt: "Movement meets belonging in wellness culture's newest social ritual. Why run clubs have become one of the most stylish ways to reclaim your mornings, your body, and your circle.",
+    date: "2026-08-19",
+    readTime: "3 min read",
+    category: "Wellness",
+    tags: ["run clubs", "community fitness", "social wellness", "movement", "belonging"]
+  },
+  {
     slug: "cold-plunges-and-cold-exposure-the-science-behind-the-trend",
     categoryId: "radical-self-care",
     title: "Cold Plunges and Cold Exposure: The Science Behind the Trend",
