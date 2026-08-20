@@ -48,6 +48,7 @@ const BLOG_POSTS = [
     date: "2026-08-14",
     readTime: "5 min read",
     category: "Wellness",
+    image: "images/magnesium-tea-morning-calm.jpg",
     tags: ["magnesium", "anxiety", "nutrition", "nervous system", "supplements"]
   },
   {
