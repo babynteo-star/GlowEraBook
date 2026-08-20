@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "cold-plunges-and-cold-exposure-the-science-behind-the-trend",
+    categoryId: "radical-self-care",
+    title: "Cold Plunges and Cold Exposure: The Science Behind the Trend",
+    excerpt: "What began as an elite athletic ritual has become wellness culture's most elegant provocation. The real physiology behind cold water immersion, and how to approach it safely.",
+    date: "2026-08-19",
+    readTime: "4 min read",
+    category: "Wellness",
+    tags: ["cold plunge", "cold exposure", "cold therapy", "brown fat", "recovery"]
+  },
+  {
     slug: "mouth-taping-for-better-sleep-what-it-actually-does-and-doesnt",
     categoryId: "radical-self-care",
     title: "Mouth Taping for Better Sleep: What It Actually Does (and Doesn't)",
