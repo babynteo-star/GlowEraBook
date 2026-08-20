@@ -58,6 +58,7 @@ const BLOG_POSTS = [
     date: "2026-08-14",
     readTime: "4 min read",
     category: "Confidence & Glow",
+    image: "images/serene-doll-wildfire.jpg",
     tags: ["glow era", "self-care costs", "personal growth", "boundaries", "authenticity"]
   },
   {
