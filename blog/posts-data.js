@@ -38,6 +38,7 @@ const BLOG_POSTS = [
     date: "2026-08-14",
     readTime: "4 min read",
     category: "Wellness Recipes",
+    image: "images/seven-colors-south-african-plate.jpg",
     tags: ["nutrition", "fruits and vegetables", "protein", "mood", "energy", "glow"]
   },
   {
