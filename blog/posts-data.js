@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "how-gravity-shapes-your-body-the-science-behind-height-posture-and-aging",
+    categoryId: "radical-self-care",
+    title: "How Gravity Shapes Your Body: The Science Behind Height, Posture, and Aging",
+    excerpt: "The invisible force working on your body every moment of every day, and what it actually does to your height, your spine, your bones, and your skin over a lifetime.",
+    date: "2026-08-20",
+    readTime: "5 min read",
+    category: "Wellness",
+    tags: ["gravity", "posture", "aging", "bone health", "body science"]
+  },
+  {
     slug: "run-clubs-why-theyre-everywhere-right-now",
     categoryId: "radical-self-care",
     title: "Run Clubs: Why They're Everywhere Right Now",
