@@ -18,6 +18,7 @@ const BLOG_POSTS = [
     date: "2026-08-19",
     readTime: "4 min read",
     category: "Wellness",
+    image: "images/travertine-cold-plunge-tubs.jpg",
     tags: ["cold plunge", "cold exposure", "cold therapy", "brown fat", "recovery"]
   },
   {
