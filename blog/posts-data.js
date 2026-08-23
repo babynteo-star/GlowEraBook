@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "the-wellness-backlash-why-more-people-are-quitting-their-trackers-and-trusting-their-bodies-again",
+    categoryId: "radical-self-care",
+    title: "The Wellness Backlash: Why More People Are Quitting Their Trackers and Trusting Their Bodies Again",
+    excerpt: "The biggest wellness trend of 2026 isn't a new device or protocol. It's people putting the trackers down and learning to trust their own bodies again.",
+    date: "2026-08-21",
+    readTime: "4 min read",
+    category: "Wellness",
+    tags: ["wellness trends", "self-tracking", "nervous system", "self-trust", "digital wellness"]
+  },
+  {
     slug: "how-gravity-shapes-your-body-the-science-behind-height-posture-and-aging",
     categoryId: "radical-self-care",
     title: "How Gravity Shapes Your Body: The Science Behind Height, Posture, and Aging",
