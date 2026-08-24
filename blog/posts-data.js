@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "movement-snacks-the-case-for-tiny-bursts-of-movement-instead-of-one-big-workout",
+    categoryId: "radical-self-care",
+    title: "Movement Snacks: The Case for Tiny Bursts of Movement Instead of One Big Workout",
+    excerpt: "You don't need an hour at the gym to feel the benefits of movement. The science behind why scattered, tiny bursts of activity throughout your day might matter more than one long workout.",
+    date: "2026-08-24",
+    readTime: "3 min read",
+    category: "Wellness",
+    tags: ["movement snacks", "fitness", "sitting", "sustainable habits", "wellness trends"]
+  },
+  {
     slug: "the-wellness-backlash-why-more-people-are-quitting-their-trackers-and-trusting-their-bodies-again",
     categoryId: "radical-self-care",
     title: "The Wellness Backlash: Why More People Are Quitting Their Trackers and Trusting Their Bodies Again",
