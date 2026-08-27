@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "coffee-raves-why-daytime-dance-parties-are-wellness-cultures-newest-ritual",
+    categoryId: "radical-self-care",
+    title: "Coffee Raves: Why Daytime Dance Parties Are Wellness Culture's Newest Ritual",
+    excerpt: "Sweat, caffeine, and a dance floor before noon. Why sober, daytime raves have become one of 2026's fastest-growing wellness trends, and what's really behind the shift.",
+    date: "2026-08-26",
+    readTime: "3 min read",
+    category: "Wellness",
+    tags: ["sober raves", "coffee culture", "dance fitness", "sober curious", "community wellness"]
+  },
+  {
     slug: "movement-snacks-the-case-for-tiny-bursts-of-movement-instead-of-one-big-workout",
     categoryId: "radical-self-care",
     title: "Movement Snacks: The Case for Tiny Bursts of Movement Instead of One Big Workout",
