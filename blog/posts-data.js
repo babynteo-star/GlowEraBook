@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "fibermaxxing-why-gut-health-is-becoming-wellness-cultures-new-foundation",
+    categoryId: "radical-self-care",
+    title: "Fibermaxxing: Why Gut Health Is Becoming Wellness Culture's New Foundation",
+    excerpt: "Unglamorous, quietly evidence-backed, and rapidly becoming 2026's foundational wellness trend. Why fiber and gut health are being linked to nearly everything, mood, immunity, and metabolic health included.",
+    date: "2026-08-28",
+    readTime: "3 min read",
+    category: "Wellness",
+    tags: ["fibermaxxing", "gut health", "microbiome", "nutrition", "wellness trends"]
+  },
+  {
     slug: "coffee-raves-why-daytime-dance-parties-are-wellness-cultures-newest-ritual",
     categoryId: "radical-self-care",
     title: "Coffee Raves: Why Daytime Dance Parties Are Wellness Culture's Newest Ritual",
