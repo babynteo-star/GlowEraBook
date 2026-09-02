@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "why-doing-nothing-is-wellness-cultures-newest-trend",
+    categoryId: "radical-self-care",
+    title: "Why Doing Nothing Is Wellness Culture's Newest Trend",
+    excerpt: "No goals. No tracking. No routine to keep up with. Why more people are choosing rest that asks nothing of them, and why it might be exactly what you need.",
+    date: "2026-08-31",
+    readTime: "3 min read",
+    category: "Wellness",
+    tags: ["rest", "wellness trends", "self-care", "relaxation", "nervous system"]
+  },
+  {
     slug: "fibermaxxing-why-gut-health-is-becoming-wellness-cultures-new-foundation",
     categoryId: "radical-self-care",
     title: "Fibermaxxing: Why Gut Health Is Becoming Wellness Culture's New Foundation",
