@@ -1,6 +1,16 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "creatine-for-women-the-wellness-trend-without-the-hype",
+    categoryId: "radical-self-care",
+    title: "Creatine for Women: The Wellness Trend, Without the Hype",
+    excerpt: "Creatine is trending in women’s wellness. Here’s what research says about strength, what remains uncertain, and how to think about the supplement without pressure.",
+    date: "2026-10-31",
+    readTime: "4 min read",
+    category: "Wellness",
+    tags: ["creatine", "women's health", "strength training", "wellness trends"]
+  },
+  {
     slug: "why-doing-nothing-is-wellness-cultures-newest-trend",
     categoryId: "radical-self-care",
     title: "Why Doing Nothing Is Wellness Culture's Newest Trend",
