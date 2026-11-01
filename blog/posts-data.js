@@ -2,6 +2,7 @@
 const BLOG_POSTS = [
   {
     slug: "creatine-for-women-the-wellness-trend-without-the-hype",
+    image: "images/creatine-for-women-the-wellness-trend-without-the-hype.webp",
     categoryId: "radical-self-care",
     title: "Creatine for Women: The Wellness Trend, Without the Hype",
     excerpt: "Creatine is trending in women’s wellness. Here’s what research says about strength, what remains uncertain, and how to think about the supplement without pressure.",
@@ -12,6 +13,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "why-doing-nothing-is-wellness-cultures-newest-trend",
+    image: "images/why-doing-nothing-is-wellness-cultures-newest-trend.webp",
     categoryId: "radical-self-care",
     title: "Why Doing Nothing Is Wellness Culture's Newest Trend",
     excerpt: "No goals. No tracking. No routine to keep up with. Why more people are choosing rest that asks nothing of them, and why it might be exactly what you need.",
@@ -22,6 +24,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "fibermaxxing-why-gut-health-is-becoming-wellness-cultures-new-foundation",
+    image: "images/fibermaxxing-why-gut-health-is-becoming-wellness-cultures-new-foundation.webp",
     categoryId: "radical-self-care",
     title: "Fibermaxxing: Why Gut Health Is Becoming Wellness Culture's New Foundation",
     excerpt: "Unglamorous, quietly evidence-backed, and rapidly becoming 2026's foundational wellness trend. Why fiber and gut health are being linked to nearly everything, mood, immunity, and metabolic health included.",
@@ -32,6 +35,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "coffee-raves-why-daytime-dance-parties-are-wellness-cultures-newest-ritual",
+    image: "images/coffee-raves-why-daytime-dance-parties-are-wellness-cultures-newest-ritual.webp",
     categoryId: "radical-self-care",
     title: "Coffee Raves: Why Daytime Dance Parties Are Wellness Culture's Newest Ritual",
     excerpt: "Sweat, caffeine, and a dance floor before noon. Why sober, daytime raves have become one of 2026's fastest-growing wellness trends, and what's really behind the shift.",
@@ -42,6 +46,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "movement-snacks-the-case-for-tiny-bursts-of-movement-instead-of-one-big-workout",
+    image: "images/movement-snacks-the-case-for-tiny-bursts-of-movement-instead-of-one-big-workout.webp",
     categoryId: "radical-self-care",
     title: "Movement Snacks: The Case for Tiny Bursts of Movement Instead of One Big Workout",
     excerpt: "You don't need an hour at the gym to feel the benefits of movement. The science behind why scattered, tiny bursts of activity throughout your day might matter more than one long workout.",
@@ -52,6 +57,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "the-wellness-backlash-why-more-people-are-quitting-their-trackers-and-trusting-their-bodies-again",
+    image: "images/the-wellness-backlash-why-more-people-are-quitting-their-trackers-and-trusting-their-bodies-again.webp",
     categoryId: "radical-self-care",
     title: "The Wellness Backlash: Why More People Are Quitting Their Trackers and Trusting Their Bodies Again",
     excerpt: "The biggest wellness trend of 2026 isn't a new device or protocol. It's people putting the trackers down and learning to trust their own bodies again.",
@@ -62,6 +68,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "how-gravity-shapes-your-body-the-science-behind-height-posture-and-aging",
+    image: "images/how-gravity-shapes-your-body-the-science-behind-height-posture-and-aging.webp",
     categoryId: "radical-self-care",
     title: "How Gravity Shapes Your Body: The Science Behind Height, Posture, and Aging",
     excerpt: "The invisible force working on your body every moment of every day, and what it actually does to your height, your spine, your bones, and your skin over a lifetime.",
@@ -72,6 +79,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "run-clubs-why-theyre-everywhere-right-now",
+    image: "images/run-clubs-why-theyre-everywhere-right-now.webp",
     categoryId: "radical-self-care",
     title: "Run Clubs: Why They're Everywhere Right Now",
     excerpt: "Movement meets belonging in wellness culture's newest social ritual. Why run clubs have become one of the most stylish ways to reclaim your mornings, your body, and your circle.",
@@ -93,6 +101,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "mouth-taping-for-better-sleep-what-it-actually-does-and-doesnt",
+    image: "images/mouth-taping-for-better-sleep-what-it-actually-does-and-doesnt.webp",
     categoryId: "radical-self-care",
     title: "Mouth Taping for Better Sleep: What It Actually Does (and Doesn't)",
     excerpt: "The sleep trend that's everywhere right now, explained honestly: what mouth taping may help with, what it can't fix, and who should skip it entirely.",
@@ -279,6 +288,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "how-to-stop-comparing-your-glow-to-someone-elses",
+    image: "images/how-to-stop-comparing-your-glow-to-someone-elses.webp",
     categoryId: "confidence-glow",
     title: "How to Stop Comparing Your Glow to Someone Else's",
     excerpt: "Comparison convinces you that someone else's glow is proof of what you're missing, when it's usually just proof of a different path entirely.",
@@ -289,6 +299,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "the-quiet-kind-of-confidence-no-one-talks-about",
+    image: "images/the-quiet-kind-of-confidence-no-one-talks-about.webp",
     categoryId: "confidence-glow",
     title: "The Quiet Kind of Confidence No One Talks About",
     excerpt: "The loudest confidence gets all the attention, but the kind that actually holds up under pressure is quieter, slower, and far less photogenic.",
@@ -299,6 +310,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "how-to-feel-confident-before-you-feel-ready",
+    image: "images/how-to-feel-confident-before-you-feel-ready.webp",
     categoryId: "confidence-glow",
     title: "How to Feel Confident Before You Feel Ready",
     excerpt: "Confidence rarely arrives before the moment that requires it, and waiting for that feeling is the very thing keeping you stuck in place.",
@@ -309,6 +321,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "how-to-rest-without-guilt-when-you-were-raised-to-always-be-productive",
+    image: "images/how-to-rest-without-guilt-when-you-were-raised-to-always-be-productive.webp",
     categoryId: "radical-self-care",
     title: "How to Rest Without Guilt When You Were Raised to Always Be Productive",
     excerpt: "If rest feels like something you have to earn first, this is for the part of you that was taught your worth lives in your output, not your existence.",
@@ -319,6 +332,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "the-difference-between-self-care-and-self-soothing",
+    image: "images/the-difference-between-self-care-and-self-soothing.webp",
     categoryId: "radical-self-care",
     title: "The Difference Between Self-Care and Self-Soothing",
     excerpt: "One restores you and one just numbs you long enough to survive the day. Learning to tell them apart changes what you reach for when things get hard.",
@@ -329,6 +343,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "what-radical-self-care-actually-means-and-why-it-is-not-selfish",
+    image: "images/what-radical-self-care-actually-means-and-why-it-is-not-selfish.webp",
     categoryId: "radical-self-care",
     title: "What Radical Self-Care Actually Means (And Why It Is Not Selfish)",
     excerpt: "The word \"selfish\" was never really about you. It was a rule someone else needed you to follow, and it is time to look at where it came from.",
@@ -339,6 +354,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "letting-go-of-relationships-that-no-longer-feel-safe-or-mutual",
+    image: "images/letting-go-of-relationships-that-no-longer-feel-safe-or-mutual.webp",
     categoryId: "healing-boundaries",
     title: "Letting Go of Relationships That No Longer Feel Safe or Mutual",
     excerpt: "Some relationships don't end with a dramatic fight. They end quietly, the day you finally admit what the imbalance has been costing you all along.",
@@ -349,6 +365,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "how-to-respond-when-someone-does-not-respect-your-boundary",
+    image: "images/how-to-respond-when-someone-does-not-respect-your-boundary.webp",
     categoryId: "healing-boundaries",
     title: "How to Respond When Someone Does Not Respect Your Boundary",
     excerpt: "A boundary that gets tested isn't a failed boundary. It's the moment that actually determines whether it was real in the first place.",
@@ -359,6 +376,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "how-to-set-boundaries-without-feeling-cruel-or-selfish",
+    image: "images/how-to-set-boundaries-without-feeling-cruel-or-selfish.webp",
     categoryId: "healing-boundaries",
     title: "How to Set Boundaries Without Feeling Cruel or Selfish",
     excerpt: "A boundary is not a punishment you're handing someone. It's information about what you need to stay whole, and it's allowed to be simple.",
@@ -369,6 +387,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "rebuilding-trust-in-yourself-after-a-painful-season",
+    image: "images/rebuilding-trust-in-yourself-after-a-painful-season.webp",
     categoryId: "deep-self-love",
     title: "Rebuilding Trust in Yourself After a Painful Season",
     excerpt: "When a hard season leaves you doubting your own judgment, here is how to slowly, honestly rebuild trust with the person you have to live with forever: you.",
@@ -379,6 +398,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "how-to-quiet-your-inner-critic-without-fighting-yourself",
+    image: "images/how-to-quiet-your-inner-critic-without-fighting-yourself.webp",
     categoryId: "deep-self-love",
     title: "How to Quiet Your Inner Critic Without Fighting Yourself",
     excerpt: "You cannot silence the inner critic by arguing louder than it does. Here's a calmer, more effective way to change your relationship with that voice.",
@@ -589,6 +609,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "why-your-self-care-routine-keeps-failing",
+    image: "images/why-your-self-care-routine-keeps-failing.webp",
     categoryId: "radical-self-care",
     title: "Why Your Self-Care Routine Keeps Failing (And What Actually Works)",
     excerpt: "Most self-care advice is built for a life you don't have. Here's the gentler, more honest approach Glow Era teaches instead.",
@@ -598,6 +619,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "the-boundary-you-are-most-afraid-to-set",
+    image: "images/the-boundary-you-are-most-afraid-to-set.webp",
     categoryId: "healing-boundaries",
     title: "The Boundary You're Most Afraid to Set (And Why It Will Set You Free)",
     excerpt: "Boundaries aren't walls. They're the quiet, powerful act of telling the truth about what you need.",
@@ -607,6 +629,7 @@ const BLOG_POSTS = [
   },
   {
     slug: "how-to-start-your-glow-era-today",
+    image: "images/how-to-start-your-glow-era-today.webp",
     categoryId: "confidence-glow",
     title: "How to Start Your Glow Era Today (Even If You Don't Feel Ready)",
     excerpt: "You don't need a clean slate, a new year, or perfect timing. You just need to begin. Here's how.",
