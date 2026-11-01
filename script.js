@@ -25,18 +25,6 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.15 });
 revealEls.forEach(el => observer.observe(el));
 
-const form = document.querySelector('.contact-form');
-if (form) {
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const btn = form.querySelector('button');
-    const original = btn.textContent;
-    btn.textContent = 'Thank You!';
-    form.querySelector('input').value = '';
-    setTimeout(() => { btn.textContent = original; }, 2500);
-  });
-}
-
 /* ============================
    Glow Era AI Assistant Widget
    ============================ */
