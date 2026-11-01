@@ -1,6 +1,18 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "a-softer-landing-little-ways-to-make-evenings-feel-like-yours",
+    image: "images/softer-landing-evening-hero.jpg",
+    categoryId: "radical-self-care",
+    title: "A Softer Landing: Little Ways to Make the Evening Feel Like Yours",
+    excerpt: "A loving, low-pressure guide to making ordinary evenings feel gentler, with small comforts, easy transitions, and permission to let enough be enough.",
+    date: "2026-11-01",
+    readTime: "10 min read",
+    category: "Wellness",
+    tags: ["evening routine", "rest", "self-care", "gentle living", "wellness"]
+  },
+
+  {
     slug: "hot-flashes-sleep-mood-menopause-care-guide",
     image: "images/hot-flashes-sleep-mood-menopause-care-guide.webp",
     categoryId: "radical-self-care",
