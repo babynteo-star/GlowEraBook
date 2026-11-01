@@ -29,11 +29,20 @@ const form = document.querySelector('.contact-form');
 if (form) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    const btn = form.querySelector('button');
-    const original = btn.textContent;
-    btn.textContent = 'Thank You!';
-    form.querySelector('input').value = '';
-    setTimeout(() => { btn.textContent = original; }, 2500);
+    const input = form.querySelector('input[type="email"]');
+    const status = form.querySelector('#signupStatus');
+    if (!input || !input.reportValidity()) return;
+
+    const email = input.value.trim();
+    const subject = encodeURIComponent('Glow Era email updates');
+    const body = encodeURIComponent(
+      'Please add me to the Glow Era email update list.\n\nEmail: ' + email +
+      '\n\nI understand that I can unsubscribe by replying to any update.'
+    );
+    if (status) {
+      status.textContent = 'Your email app is opening. Please press Send to complete your signup.';
+    }
+    window.location.href = 'mailto:prudencenteo@glowerabook.com?subject=' + subject + '&body=' + body;
   });
 }
 

@@ -191,10 +191,10 @@
       <form class="contact-form" data-reveal>
         <label for="email">Email address</label>
         <div class="form-row">
-          <input type="email" id="email" name="email" placeholder="you@example.com" required>
-          <button type="submit" class="btn btn-primary">Notify Me</button>
+          <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" aria-describedby="signupStatus" required>
+          <button type="submit" class="btn btn-primary">Request Updates</button>
         </div>
-        <p class="form-note">No spam, ever, just glow. Unsubscribe anytime.</p>
+        <p class="form-note" id="signupStatus" role="status" aria-live="polite">Your email app will open with a signup request. Press Send to finish; signups are added by hand. You can unsubscribe by replying to any update. <a href="mailto:prudencenteo@glowerabook.com?subject=Glow%20Era%20email%20updates">Email us directly if needed.</a></p>
       </form>
     </div>
   </section>
