@@ -1,6 +1,17 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "hot-flashes-sleep-mood-menopause-care-guide",
+    image: "images/hot-flashes-sleep-mood-menopause-care-guide.webp",
+    categoryId: "radical-self-care",
+    title: "Hot Flashes, Sleep, and Mood: A More Complete Conversation About Menopause Care",
+    excerpt: "Fresh 2026 guidance brings hot flashes, sleep, and mood into one menopause-care conversation. A warm, practical guide to understanding your options and asking for care that fits you.",
+    date: "2026-11-01",
+    readTime: "8 min read",
+    category: "Wellness",
+    tags: ["menopause", "hot flashes", "women's health", "sleep", "mood", "wellness"]
+  },
+  {
     slug: "creatine-for-women-the-wellness-trend-without-the-hype",
     image: "images/creatine-for-women-the-wellness-trend-without-the-hype.webp",
     categoryId: "radical-self-care",
