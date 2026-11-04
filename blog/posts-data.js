@@ -1,6 +1,17 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "victorias-secret-body-trend-wellness",
+    image: "images/victorias-secret-body-trend-wellness.jpg",
+    categoryId: "radical-self-care",
+    title: "The Victoria’s Secret Body Trend: How to Feel Strong and Confident in Your Own Body",
+    excerpt: "The 2026 Victoria’s Secret Fashion Show has reignited conversation about runway bodies. Here’s a kind, realistic guide to building strength, confidence, and feel-good habits without chasing one body type.",
+    date: "2026-11-04",
+    readTime: "10 min read",
+    category: "Wellness",
+    tags: ["Victoria’s Secret", "body image", "strength training", "wellness", "confidence"]
+  },
+  {
     slug: "a-softer-landing-little-ways-to-make-evenings-feel-like-yours",
     image: "images/softer-landing-evening-hero.jpg",
     categoryId: "radical-self-care",
