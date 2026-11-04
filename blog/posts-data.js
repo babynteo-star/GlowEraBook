@@ -1,6 +1,17 @@
 // Newest post first. Each new_blog_post.py run prepends one entry here.
 const BLOG_POSTS = [
   {
+    slug: "how-to-build-real-life-sisterhood-and-connection",
+    image: "images/real-life-sisterhood-garden-tea.jpg",
+    categoryId: "radical-self-care",
+    title: "How to Build Real-Life Sisterhood: Simple Ways to Feel More Connected",
+    excerpt: "Feeling lonely even when you’re always connected? This gentle guide shares practical ways to build meaningful friendships, create offline rituals, and feel more belonging in everyday life.",
+    date: "2026-11-04",
+    readTime: "10 min read",
+    category: "Wellness",
+    tags: ["sisterhood", "friendship", "social connection", "wellbeing", "community"]
+  },
+  {
     slug: "victorias-secret-body-trend-wellness",
     image: "images/victorias-secret-body-trend-wellness.jpg?v=20261104",
     categoryId: "radical-self-care",
