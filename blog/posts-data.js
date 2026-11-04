@@ -2,7 +2,7 @@
 const BLOG_POSTS = [
   {
     slug: "victorias-secret-body-trend-wellness",
-    image: "images/victorias-secret-body-trend-wellness.jpg",
+    image: "images/victorias-secret-body-trend-wellness.jpg?v=20261104",
     categoryId: "radical-self-care",
     title: "The Victoria’s Secret Body Trend: How to Feel Strong and Confident in Your Own Body",
     excerpt: "The 2026 Victoria’s Secret Fashion Show has reignited conversation about runway bodies. Here’s a kind, realistic guide to building strength, confidence, and feel-good habits without chasing one body type.",
