@@ -4,7 +4,7 @@ const BLOG_POSTS = [
     slug: "alls-fair-season-2-review-first-three-episodes",
     image: "images/alls-fair-season-2-review.jpg",
     categoryId: "confidence-glow",
-    title: "All’s Fair Season 2 Review: A Scorpio Ball, Big Feelings and Complicated Sisterhood",
+    title: "All’s Fair Season 2: Glamour, Grudges and the Scorpio Ball",
     excerpt: "A spoiler-free review of the first three episodes of All’s Fair season two, exploring friendship, forgiveness, the Scorpio Ball, and the women behind the firm.",
     date: "2026-11-05",
     readTime: "10 min read",
